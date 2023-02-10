@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    font-family:'Roboto', sans-serif;
+    margin: 0px auto;
+
+}
+header {
+    background: url('img/background_header.jpg') fixed  100%;
+    max-height: 873px;
+}
+.head {
+    margin: 0px;
+    padding: 0px 155px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.head a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.logo {
+    padding: 52px 0px;
+    margin: 0px;
+}
+
+.desktop-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 425px;
+    padding: 54px 0px 79px;
+    margin: 0px;
+}
+.log_in {
+    margin: 0px;
+    padding: 54px 0px 79px;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 104px;
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+    margin: 0px;
+    padding: 0px 174px 102px;
+}
+.supply_order {
+    margin: 0px;
+    padding: 0px 174px;
+    display: flex;
+    
+}
+.supply_order a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F0EAEA;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.supply {
+    margin: 0px;
+    padding: 28px 88px 0px 0px;
+}
+.order {
+    margin: 0px;
+    padding: 28px 68px 0px 0px;
+}
+.subbly_border {
+    width: 74px;
+    opacity: 0.4;
+    border-bottom: 1px solid #FFF8F8;
+    transform: rotate(90deg);
+}
+.arroy_buttton {
+    padding: 10px 0px 0px;
+
+}
+.trumps {
+    display: flex;
+    justify-content: right;
+    padding: 156px 0px 0px;
+}
+.trump_servis {
+    padding: 23px 96px 37px;
+    background: #FFFFFF;
+}
+.trump_servis h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    color: #13181E;
+    padding: 0px;
+    margin: 0px;
+}
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #13181E;
+    padding: 0px;
+    margin: 0px;
+}
+.trump_servis p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #717578;
+    padding: 6px 0px 0px;
+    margin: 0px;
+}
+.for_what {
+    margin: 0px;
+    padding: 114px 153px 140px 167px;
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    color: #13181E;
+    padding: 0px;
+    margin: 0px;
+}
+.for_what_content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #13181E;
+    margin: 0px;
+    padding: 52px 0px;
+}
+.for_what_content a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #13181E;
+}
+.optimizacion_work {
+    margin: 0px;
+    padding: 163px 0px 230px;
+    background: url('img/background_2_article.jpg') fixed  100%;
+    text-align: center;
+}
+h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+.optimizacion_work p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 34px 0px 78px;
+}
+.optimizacion_work a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
