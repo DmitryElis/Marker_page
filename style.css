@@ -16,9 +16,15 @@ body {
 
 }
 header {
+    max-height: 873px;
+}
+.main_head {
     background: url('img/background_header.jpg') fixed;
     background-size: 100%;
-    max-height: 873px;
+}
+.head_mark {
+    background: url('img/background_head_mark.jpg') fixed;
+    background-size: 100%;
 }
 .head {
     margin: 0px;
@@ -92,6 +98,25 @@ header h1 {
     padding: 10px 0px 0px;
 
 }
+.info_head {
+    display: flex;
+    justify-content: space-between;
+}
+.what_is_it {
+    width: 335px;
+    margin: 0px 0px 0px 166px;
+    padding: 0px;
+    border-top: 2px solid #ECEDED;;
+}
+.what_is_it p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ECEDED;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 0px;
+    padding: 30px 0px;
+}
 .trumps {
     display: flex;
     justify-content: right;
@@ -100,6 +125,10 @@ header h1 {
 .trump_servis {
     padding: 23px 96px 37px;
     background: #FFFFFF;
+}
+.trump_servis_info {
+    padding: 52px 96px 75px 72px;
+    background: #FFFFFF; 
 }
 .trump_servis h5 {
     font-weight: 700;
@@ -128,7 +157,9 @@ h4 {
 }
 .for_what {
     margin: 0px;
-    padding: 114px 153px 140px 167px;
+    padding: 0px;
+}
+.for_what_info {
     display: flex;
     justify-content: space-between;
 }
@@ -140,7 +171,13 @@ h3 {
     padding: 0px;
     margin: 0px;
 }
-.for_what_content p {
+.for_what_info h4 {
+    padding: 124px 0px 0px 167px;
+}
+.for_what_content{
+    padding: 114px 153px 140px 0px;
+}
+.for_what p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -148,11 +185,66 @@ h3 {
     margin: 0px;
     padding: 52px 0px;
 }
-.for_what_content a {
+.for_what a {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #13181E;
+}
+
+.how_doing_mark {
+    display: flex;
+    justify-content: space-between;
+}
+.mistakes h3 {
+    margin: 0px;
+    padding: 0px 0px 0px 181px;
+
+}
+.mistake_1 {
+    padding: 0px 74px 39px 181px;
+    display: flex;
+    justify-content: space-between;
+}
+.mistake_1 img {
+    margin-top: 19px;
+}
+.mistake_2 {
+    padding: 0px 183px 0px 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.mistake_2_info p {
+    padding: 5px 0px 52px;
+}
+.mistake_2_info {
+    padding: 130px 0px 0px;
+}
+.info_security {
+    display: flex;
+    gap: 19.5px;
+}
+#color_mistake {
+    color: #1655F4;
+}
+.needed_for_mark {
+    width: 453px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 90px 0px 0px 0px;
+}
+.need_parth {
+    width: 224px;
+}
+.need_parth p {
+    padding: 0px 0px 80px;
+}
+.how_doing_mark iframe {
+    padding: 0px 0px 114px 75px;
+}
+.how_doing_info {
+    padding: 158px 175px 0px 0px;
 }
 .optimizacion_work {
     margin: 0px;
