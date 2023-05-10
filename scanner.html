@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Scanner</title>
 </head>
 
@@ -194,6 +195,223 @@
                 </div>
             </div>
         </article>
+        <article class="application">
+            <div class="invite_form">
+                <div class="invite_info">
+                    <h4>
+                        Хотите получить<br>
+                        доступ ?
+                    </h4>
+                    <h3>
+                        Для получения подробной информации<br>
+                        заполните форму обратной связи и мы<br>
+                        вам перезвоним.
+                    </h3>
+                </div>
+                <div class="ask_form">
+                    <form class="info_form">
+                        <div class="form-row">
+                            <input type="text" id="name" required autocomplete="off"><label for="name">Фамилия Имя
+                                Отчество
+                                <span class="important">*</span></label>
+                        </div>
+                        <div class="form-row_email">
+                            <input type="text" id="email" required autocomplete="off"><label for="email"
+                                id="email_l">Ваша почта
+                                <span class="important">*</span></label>
+                            <input type="text" id="phone" required><label for="phone" id="phone_l">Телефон</label>
+                        </div>
+                        <div class="form-row">
+                            <input type="text" id="comment" required><label for="comment">Коментарий</label>
+                        </div>
+                        <div class="form_check">
+                            <input type="checkbox" id="mailing">
+                            <label for="mailing">
+                                <span class="main_mail">Хочу получить подробное описание на почту</span><br>
+                                <span class="dop_mail">Возможна рассылка только на корпоративную почту</span>
+                            </label>
+                        </div>
+                        <p>
+                            <input type="submit" value="Оставить заявку">
+                        </p>
+                    </form>
+                    <p class="form_section">Заявка на доступ к сервису</p>
+                </div>
+            </div>
+        </article>
+        <article class="tarrif_plan">
+            <div class="tarrif_head">
+                <h4>Тарифный план</h4>
+                <div class="tarrif_month_or_year">
+                    <ul>
+                        <li>
+                            <p>Месяц</p>
+                        </li>
+                        <li>
+                            <label>
+                                <div class="styled_checkbox">
+                                    <input type="checkbox" onchange="changeTheme(this.checked)">
+                                    <div class="styled_checkbox_button"></div>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+                            <p>Год</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="tarrif_board">
+                <div class="tarrif">
+                    <a href="#">
+                        <div class="tarrif_price_head">
+                            <span class="tarrif_price">199</span>
+                            <span class="main_mail">руб/м.</span>
+                        </div>
+                        <div class="tarrif_info">
+                            <span class="tarrif_name">Базовый</span>
+                            <p>
+                                Важно знать функционал<br>
+                                инструмента и соблюдать некоторые<br>
+                                правила и порядок действий.
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li class="close_function"><i class="fa fa-circle-thin"></i>Закрытая функция </li>
+
+
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="tarrif">
+                    <a href="#">
+                        <div class="tarrif_price_head">
+                            <span class="tarrif_price">399</span>
+                            <span class="main_mail">руб/м.</span>
+                        </div>
+                        <div class="tarrif_info">
+                            <span class="tarrif_name">Базовый</span>
+                            <p>
+                                Важно знать функционал<br>
+                                инструмента и соблюдать некоторые<br>
+                                правила и порядок действий.
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li class="close_function"><i class="fa fa-circle-thin"></i>Закрытая функция </li>
+
+
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="tarrif">
+                    <a href="#">
+                        <div class="tarrif_price_head">
+                            <span class="tarrif_price">599</span>
+                            <span class="main_mail">руб/м.</span>
+                        </div>
+                        <div class="tarrif_info">
+                            <span class="tarrif_name">Базовый</span>
+                            <p>
+                                Важно знать функционал<br>
+                                инструмента и соблюдать некоторые<br>
+                                правила и порядок действий.
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+
+
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+                <div class="tarrif">
+                    <a href="#">
+                        <div class="tarrif_price_head">
+                            <span class="tarrif_price">999</span>
+                            <span class="main_mail">руб/м.</span>
+                        </div>
+                        <div class="tarrif_info">
+                            <span class="tarrif_name">Базовый</span>
+                            <p>
+                                Важно знать функционал<br>
+                                инструмента и соблюдать некоторые<br>
+                                правила и порядок действий.
+                            </p>
+                            <ul>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li><i class="fa fa-check-circle"></i>Функция которая открыта</li>
+                                <li class="close_function"><i class="fa fa-circle-thin"></i>Закрытая функция </li>
+
+
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <footer>
+            <nav class="foot_menu">
+                <div class="menu_list">
+                    <h4>
+                        Карта сайта
+                    </h4>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Заказчик</a></li>
+                        <li><a href="#">Поставщик</a></li>
+
+                    </ul>
+                </div>
+                <div class="menu_list">
+                    <h4>
+                        IT- products
+                    </h4>
+                    <ul>
+                        <li><a href="#">Маркер</a></li>
+                        <li><a href="#">Сканер</a></li>
+                        <li><a href="#">Стоимость</a></li>
+                    </ul>
+                </div>
+                <div class="menu_list">
+                    <h4>Вход</h4>
+                    <ul>
+                        <li><a href="#">Авторизация</a></li>
+                    </ul>
+                </div>
+                <div class="menu_over_list">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="#">Частые вопросы</a></li>
+                        <li><a href="#">Контакты</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div class="trial_invite">
+                <h4>Хотите получить пробный доступ?</h4>
+                <p>Укажите вашу рабочую почту и мы вышлем<br>
+                    подробную информацию</p>
+                <div class="easy_form">
+                    <input type="email" id="email" required><label for="email">Ваша почта</label>
+                    <button><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19" stroke="#25282B" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 5L19 12L12 19" stroke="#25282B" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </footer>
     </main>
 
 </body>
