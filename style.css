@@ -41,6 +41,10 @@ header {
     background: url('img/background_help_head.jpg') fixed;
     background-size: 100%;
 }
+.login_head {
+    background: url('img/background_log_in.jpg') fixed;
+    background-size: 100%;
+}
 
 .head {
     margin: 0px;
@@ -602,9 +606,17 @@ iframe {
     position: relative;
 }
 
+.login_input{
+    width: 416px;
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: 1px solid #FFFFFF;
+    position: relative;
+
+}
+
 .search_qestion {
     width: 446px;
-    margin: 0px;
     padding: 0px 0px 15px;
     margin: 0px 0px 0px 174px;
     border-bottom: 1px solid #ECEDED;
@@ -1137,4 +1149,14 @@ footer {
     padding: 0px;
     margin: 0px;
     border-top: 1px solid #DCDCDD;
+}
+
+.log_in_page {
+    padding: 0px 207px 0px 171px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login h1 {
+    padding: 0px;
 }
